@@ -1,0 +1,16 @@
+{
+  "name": "termuxkey",
+  "version": "1.0.0",
+  "description": "TermuxKey",
+  "license": "GPL-3.0-or-later",
+  "author": "xingling",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo hello from termuxkey",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "fastify": "^5.12.5"
+  }
+}
