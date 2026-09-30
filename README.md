@@ -48,7 +48,7 @@ npm install
 
 ```bash
 export KEY=你的密钥
-export DOMAIN=你的域名或IP:端口
+export DOMAIN=你的域名或IP
 ```
 
 ### 3. 启动
