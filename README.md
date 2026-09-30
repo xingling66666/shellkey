@@ -1,6 +1,6 @@
-# TermuxKey
+# shellKey
 
-让**任何有网页浏览能力的 AI**（DeepSeek / Grok / 豆包 / ChatGPT 等）远程操控你的 Termux 执行命令。
+让**任何有网页浏览能力的 AI**（DeepSeek / Grok / 豆包 / ChatGPT 等）远程操控你的shell执行命令。
 
 无需 API Token，只要 AI 能"浏览网页"，就能当 Agent 用。
 
@@ -14,7 +14,7 @@
 用户 → 网页 AI（对话）
         │  AI 通过"浏览网页"访问 /docs 学会调 API
         ▼
-      TermuxKey (Fastify)
+      shellKey (Fastify)
         │  收到 /exec?key=xxx&cmd=xxx
         ▼
       黑名单过滤 → execSync 执行 → 返回结果
@@ -33,7 +33,6 @@
 - 🌐 **兼容广**：任何有浏览能力的 AI 都能接
 - 🔁 **多轮调用**：AI 执行 → 读结果 → 再执行
 - 🛡️ **风险兜底**：黑名单拦截危险命令
-- 📱 **面向 Android/Termux**：最坏情况可 fastboot 恢复
 
 ---
 
