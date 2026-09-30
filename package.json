@@ -1,7 +1,7 @@
 {
-  "name": "termuxkey",
+  "name": "shellkey",
   "version": "1.0.0",
-  "description": "TermuxKey",
+  "description": "shellkey",
   "license": "GPL-3.0-or-later",
   "author": "xingling",
   "type": "module",
