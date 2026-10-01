@@ -49,7 +49,7 @@ return { message: "key不正确"};
 }
 let riskCommand = false
 for (let i = 0; i < block.length; i++) {
-if (request.query.cmd.replace(/\s|'|"|\$|\\/g).includes(block[i])) {
+if (request.query.cmd.replace(/\s|'|"|\$|\\/g,"").includes(block[i])) {
 riskCommand = true;
 break;
 }
